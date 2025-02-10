@@ -1,0 +1,1 @@
+gradlew clean build && move .\build\libs\gradlepoc*.jar ..\EXE\gradlepoc_driver.jar

@@ -1,0 +1,59 @@
+gradlepoc_driver.jar:
+Objeto de la prueba:
+Este driver nos permite probar las siguientes funcionalidades:
+Gestión de productos:
+	- Listar productos.
+	- Crear, modificar, y eliminar productos.
+	- Consultar la sinergia entre productos.
+	
+Gestión de soluciones:
+	- Crear soluciones con diferentes configuraciones.
+	- Ejecutar algoritmos de distribución rápida y óptima para mejorar la calidad de la solución.
+	- Intercambiar productos en la solución.
+	
+Importación y exportación:
+	- Importar y exportar listas de productos.
+	- Guardar e importar el estado completo del sistema.
+
+Otros elementos integrados en la prueba:
+	Clase Sistema:
+		Gestiona las operaciones principales y centraliza la lógica de negocio.
+	Clase Producto:
+		Representa los productos gestionados en el sistema, con atributos como nombre y precio.
+	Clase Solucion:
+		Contiene la representación de las soluciones generadas y permite manipularlas.
+	Clases de algoritmos:
+		AlgoritmoRapido: Ejecuta un algoritmo de distribución rápida.
+		AlgoritmoVoraz: Ejecuta un algoritmo de optimización.
+	Clase inout:
+		Facilita la interacción con el usuario, manejando entradas y salidas.
+
+Archivos de datos necesarios:
+
+
+Valores estudiados: 
+	Casos normales:
+		Crear productos con valores válidos de nombre y precio.
+		Ejecutar algoritmos de distribución con configuraciones estándar.
+		
+	Casos extremos:
+		Consultar productos inexistentes.
+		Probar límites de filas y columnas en las soluciones (mínimo y máximo permitido).
+		
+	Validaciones:
+		Manejo de entradas incorrectas, como IDs fuera de rango o nombres vacíos.
+
+Efectos estudiados: 
+	Creación de productos: Los productos creados deben aparecer correctamente en la lista.
+	Intercambio de productos: Cambia las posiciones en la solución.
+	Algoritmos: Los resultados deben mostrar mejoras en la calidad de las soluciones.
+	Importación/exportación: Los datos deben reflejarse correctamente en el sistema tras su importación.
+
+Operativa:
+Depende de los archivos que se tengan, se deberán realizar unos pasos u otros.
+Si tenemos el paquete compilado en un archivo .jar, lo único que hará falta es ejecutarlo mediante:
+java -jar driver.jar
+
+Si tenemos el paquete sin compilar, podremos ver que en la carpeta del paquete hay un Makefile, si ejecutamos el comando make mientras estamos en el mismo directorio, el programa se compilará y nos dará como resultado un archivo .jar, y para ejecutar este archivo realizaremos lo mismo que en el punto 1.
+
+Una vez ejecutado, se imprimirá en la terminal un menú por el que navegar y empezar a probar funcionalidades.

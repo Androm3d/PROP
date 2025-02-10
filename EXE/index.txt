@@ -1,0 +1,8 @@
+En este directorio estan los ejecutables del programa.
+El archivo 'Driver.txt' tiene la descripción del juego de pruebas.
+
+El archivo '' sirve para ejecutar el driver.
+
+En el directorio "guiProyecto" esta el proyecto compilado con interficie grafica. 
+Pero por problemas durante la automatización de la compilación, se ha decidido no añadirlo en esta entrega, y para la siguiente entrega acabar de implementar la automatizacion.
+Entonces para poder ejecutarlo hace falta ejecutar el archivo "guiProyecto/bin/gradlepoc.bat".

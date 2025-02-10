@@ -1,0 +1,6 @@
+En este directorio esta toda la documentacion.
+En el fichero "documentacion.pdf" esta:
+- Diagrama de casos de uso y una breve explicacion de cada caso de uso.
+- Diagrama estatico completo del modelo conceptual de datos y una breve descripcion de atributos y metodos de cada clase.
+- Relacion de las clases implementadas por cada miembro del equipo
+- Breve descripcion de las estructuras de datos y algoritmos implementadas en las funcionalidades principales de esta entrega.

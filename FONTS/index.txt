@@ -1,0 +1,3 @@
+En este directorio esta el codigo fuente del proyecto.
+Tambien hay un Makefile con el que compilar.
+El archivo "build.bat" sirve para compilar el proyecto.
